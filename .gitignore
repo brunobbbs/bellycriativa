@@ -65,6 +65,7 @@ migrations/
 
 # BD Devel
 *.sqlite3
+*.db
 
 # Django media files
 uploads/
