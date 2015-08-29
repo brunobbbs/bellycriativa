@@ -1,0 +1,719 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+
+  <!--Main  Slider Start-->
+  <div class="main-slider">
+    <ul class="cp-child-slider">
+      <li><img src="{% static 'img/mslider1.jpg' %}" alt="" />
+        <div class="caption">
+          <div class="container">
+            <div class="slider-data">
+              <h2>Play is the highest <br>
+                form of research</h2>
+              <a class="shopping-button" href="#">Shop Now</a> </div>
+          </div>
+        </div>
+      </li>
+      <li><img src="{% static 'img/mslider2.jpg' %}" alt="" />
+        <div class="caption">
+          <div class="container">
+            <div class="slider-data">
+              <h2>Every Thing you can <br>
+                imagine is real</h2>
+              <a class="shopping-button" href="#">Shop Now</a> </div>
+          </div>
+        </div>
+      </li>
+      <li><img src="{% static 'img/mslider3.jpg' %}" alt="" />
+        <div class="caption">
+          <div class="container">
+            <div class="slider-data">
+              <h2>Some first steps are <br>
+                bigger than others.</h2>
+              <a class="shopping-button" href="#">Shop Now</a> </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--Main  Slider End-->
+
+  <!--Main Content Start-->
+  <div class="cp-page-content">
+
+    <!--Home Welcome Section Start-->
+    <div class="cp-home-welcome">
+      <div class="container">
+        <div class="row">
+          <h2 class="sec-title">Welcome to Big Care!</h2>
+          <div class="col-md-4"><img src="{% static 'img/welcomepic.jpg' %}" alt=""></div>
+          <div class="col-md-4">
+            <div class="welcome-content">
+              <h3>Childhood is About Discovery.
+                So is Childhood Medicine.</h3>
+              <p>Looking for 6 ways to run.A more successful child care center. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+              <a href="#" class="readmore-bg">Read More</a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="emergency-call">
+              <h2>222-77-124</h2>
+              <strong>Emergency Call</strong> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Home Welcome Section End-->
+
+    <!--Home Services Start-->
+    <div class="home-services gap-80">
+      <div class="container">
+        <div class="row">
+          <h2 class="sec-title">Our Services</h2>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="sicon"><i class="fa fa-bell-o"></i></div>
+              <h3 class="sub-title">Big Goal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a href="#" class="readmore">Read More</a> </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="sicon"><i class="fa fa-gift"></i></div>
+              <h3 class="sub-title">Art Day</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a href="#" class="readmore">Read More</a> </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="sicon"><i class="fa fa-gears"></i></div>
+              <h3 class="sub-title">Emergency Care</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a href="#" class="readmore">Read More</a> </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="sicon"><i class="fa fa-heart-o"></i></div>
+              <h3 class="sub-title">Activities</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a href="#" class="readmore">Read More</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Home Services End-->
+
+    <!--Home Paralx Start-->
+    <div class="cp-home-peralax">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caring-content">
+              <h2>Caring For Children is not just Part of what we Do. Its’s all we Do.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh neque, convallis ut interdum a, conasequat sit amet mauris. </p>
+              <a class="readmore" href="#">Support Children</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Home Paralx End-->
+
+    <!--CARING CHILDREN START-->
+    <div class="cp-caring-product gap-80">
+      <div class="products-tabs">
+        <h2 class="sec-title">Our Products</h2>
+        <div role="tabpanel">
+
+          <!-- Nav tabs -->
+
+          <div class="container">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Baby Girl</a></li>
+              <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Baby Boy</a></li>
+              <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Newborn</a></li>
+              <li role="presentation"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Shoes</a></li>
+              <li role="presentation"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Accessory</a></li>
+              <li role="presentation"><a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab">Clearance</a></li>
+            </ul>
+          </div>
+          <!-- Tab panes -->
+          <div class="tab-content product-listing">
+            <div role="tabpanel" class="tab-pane active" id="tab1">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab2">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab3">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab4">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab5">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab6">
+              <div class="container">
+                <ul class="cp-product-list row">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro4.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro3.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro2.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="pro-list">
+                      <div class="thumb"><a href="#"><img alt="" src="{% static 'img/hmpro1.jpg' %}"></a></div>
+                      <div class="text">
+                        <div class="pro-name">
+                          <h4>Baby Sister</h4>
+                          <p class="price">$98.99</p>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor...</p>
+                      </div>
+                      <div class="cart-options"> <a href="#"><i class="fa fa-heart-o"></i>Wishlist</a> <a href="#"><i class="fa fa-shopping-cart"></i>Cart</a> <a href="#"><i class="fa fa-search"></i>Details</a> <a href="#"><i class="fa fa-share-alt"></i>Share</a>
+                        <div class="rating"> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CARING CHILDREN End-->
+
+    <!-- Home Events Start -->
+    <div class="cp-home-events gap-80">
+      <div class="container">
+        <div class="row">
+          <h2 class="sec-title">Our Events</h2>
+          <ul class="home-events">
+            <li class="col-md-4 col-sm-4">
+              <div class="event-thumb"><img alt="" src="{% static 'img/gallery/gallery3-06.jpg' %}">
+                <div class="event-caption">
+                  <h3>Book Your Event</h3>
+                  <p>15.00$/ Per Head <strong>23 March 2015</strong></p>
+                  <ul>
+                    <li><i class="fa fa-home"></i> 31 Great Smith Street</li>
+                    <li><i class="fa fa-map-marker"></i> New york USA</li>
+                    <li><i class="fa fa-clock-o"></i> 10.00am</li>
+                  </ul>
+                  <a class="book-now" href="#">Book Now</a> </div>
+              </div>
+            </li>
+            <li class="col-md-4 col-sm-4">
+              <div class="event-thumb"><img alt="" src="{% static 'img/gallery/gallery3-05.jpg' %}">
+                <div class="event-caption">
+                  <h3>Book Your Event</h3>
+                  <p>15.00$/ Per Head <strong>23 March 2015</strong></p>
+                  <ul>
+                    <li><i class="fa fa-home"></i> 31 Great Smith Street</li>
+                    <li><i class="fa fa-map-marker"></i> New york USA</li>
+                    <li><i class="fa fa-clock-o"></i> 10.00am</li>
+                  </ul>
+                  <a class="book-now" href="#">Book Now</a> </div>
+              </div>
+            </li>
+            <li class="col-md-4 col-sm-4">
+              <div class="event-thumb"><img alt="" src="{% static 'img/gallery/gallery3-02.jpg' %}">
+                <div class="event-caption">
+                  <h3>Book Your Event</h3>
+                  <p>15.00$/ Per Head <strong>23 March 2015</strong></p>
+                  <ul>
+                    <li><i class="fa fa-home"></i> 31 Great Smith Street</li>
+                    <li><i class="fa fa-map-marker"></i> New york USA</li>
+                    <li><i class="fa fa-clock-o"></i> 10.00am</li>
+                  </ul>
+                  <a class="book-now" href="#">Book Now</a> </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Home Events End -->
+
+    <!-- Home Staff Start -->
+    <div class="cp-our-staff">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="sec-title">Our Staff</h2>
+          </div>
+          <ul class="cp-team-grid">
+            <li class="col-md-3 col-sm-6">
+              <div class="staff-thumb-holder"><img src="{% static 'img/staff-1.jpg' %}" alt=""></div>
+              <div class="staff-content">
+                <h4>Dana James</h4>
+                <p>Principal</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="staff-thumb-holder"><img src="{% static 'img/staff-2.jpg' %}" alt=""></div>
+              <div class="staff-content">
+                <h4>Venonic Thompus</h4>
+                <p>Mentor</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="staff-thumb-holder"><img src="{% static 'img/staff-3.jpg' %}" alt=""></div>
+              <div class="staff-content">
+                <h4>Karen Dolares</h4>
+                <p>Teacher</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="staff-thumb-holder"><img src="{% static 'img/staff-4.jpg' %}" alt=""></div>
+              <div class="staff-content">
+                <h4>Janna Sue</h4>
+                <p>Teacher</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home Staff End -->
+
+    <!--Home Latest News Start-->
+    <div class="cp-home-latest-news gap-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="sec-title">Latest News</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="news-box">
+              <div class="thumb"><img src="{% static 'img/hln1.jpg' %}" alt=""></div>
+              <div class="news-caption">
+                <div class="date">09 <span> / June</span></div>
+                <h3><a href="#">Unusual Baby Names for Girls </a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-box">
+              <div class="thumb"><img src="{% static 'img/hln2.jpg' %}" alt=""></div>
+              <div class="news-caption">
+                <div class="date">16 <span> / July</span></div>
+                <h3><a href="#"> Cute little outfit</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-box">
+              <div class="thumb"><img src="{% static 'img/hln3.jpg' %}" alt=""></div>
+              <div class="news-caption">
+                <div class="date">09 <span> / August</span></div>
+                <h3><a href="#">Hairstyles for Little Girls </a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="banner-container"> <img src="{% static 'img/banner-bg.png" alt="">
+                <div class="banner-caption">
+                  <h3>Newborn Collection
+                    Winter 2015</h3>
+                  <h4>Now in store</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Home Latest News End-->
+
+
+    <!--News letter Container-->
+    <div class="cp-home-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Want to hear more story,subscribe for our newsletter</h3>
+            <a class="subscribe-button" href="#">Subscribe</a> </div>
+        </div>
+      </div>
+    </div>
+
+    <!--News letter Container End-->
+
+  </div>
+  <!--Main Content End-->
+
+{% endblock %}
