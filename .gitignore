@@ -75,3 +75,5 @@ public/
 
 # Django development environment
 local_settings.py
+
+.env
