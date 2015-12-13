@@ -8,11 +8,11 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 """
 
 import os
-
+from dj_static import Cling
 from django.core.wsgi import get_wsgi_application
 from mezzanine.utils.conf import real_project_name
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE",
                       "%s.settings" % real_project_name("bellycriativa"))
 
-application = get_wsgi_application()
+application = Cling(get_wsgi_application())

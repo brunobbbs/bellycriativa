@@ -1,0 +1,1 @@
+web: gunicorn bellycriativa.wsgi --log-file -
