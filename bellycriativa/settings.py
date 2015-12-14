@@ -146,7 +146,7 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 
 default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'dev.db')
 DATABASES = {
-    "defaul": config('DATABASE_URL', default=default_dburl, cast=dburl)
+    "default": config('DATABASE_URL', default=default_dburl, cast=dburl),
 }
 
 
