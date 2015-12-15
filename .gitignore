@@ -76,3 +76,6 @@ public/
 local_settings.py
 
 .env
+
+#venv
+.bellycriativa/
