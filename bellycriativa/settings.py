@@ -2,7 +2,7 @@
 from __future__ import absolute_import, unicode_literals
 import os
 from django.utils.translation import ugettext_lazy as _
-from decouple import config
+from decouple import config, Csv
 from dj_database_url import parse as dburl
 
 
@@ -96,7 +96,7 @@ USE_MODELTRANSLATION = False
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
