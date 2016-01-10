@@ -265,6 +265,8 @@ Header Start
 .logo-nav .m1 {
 	background: url(../img/m1bg-1.png) no-repeat;
 	width: 150px;
+	position: relative;
+    top: 2px;
 }
 .logo-nav .m2 {
 	background: url(../img/m2bg.png) no-repeat;
@@ -720,7 +722,7 @@ Caring For Children
 	font-family: 'Courgette', cursive;
 	margin: 18px 0 26px;
 }
-.cp-caring-product .caring-content a.readmore, .cp-home-peralax a.readmore {
+.cp-caring-product .caring-content a.readmore, .cp-home-peralax a.readmore, .cp-home-peralax-2 a.readmore {
 	background: url(../img/btn1.png);
 	width: 238px;
 	height: 63px;
@@ -847,6 +849,46 @@ Caring For Children
 Caring For Children End
 *****************************/
 
+/*****************************
+Home Paralx - 2
+*****************************/
+
+.cp-home-peralax-2 {
+	background: url(../img/home-paralax.jpg) top center fixed no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 80px 0;
+}
+.cp-home-peralax-2:after {
+	background: #11BFDD;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+}
+.cp-home-peralax-2 .container {
+	position: relative;
+	z-index: 99;
+}
+.cp-home-peralax-2 h2 {
+	font-size: 48px;
+	margin: 0px;
+}
+.cp-home-peralax-2 h3 {
+	color: #0ca2c0;
+}
+
+.cp-home-peralax-2 .caring-content p {
+	font-size: 24px;
+	color: #000000;
+	font-family: 'Courgette', cursive;
+	margin: 18px 0 26px;
+}
 
 /*****************************
 Home Paralx
@@ -1048,6 +1090,7 @@ Footer Start
 	padding: 80px 0;
 	width: 100%;
 	float: left;
+    background-color: #138293;
 }
 #footer .footer-top p, #footer .footer-top h3, #footer .footer-top a {
 	color: #fff;

@@ -2,12 +2,14 @@
 Background Color
 *****************************/
 
-.cp-child-topbar, #footer .footer-bottom ,
+#footer .footer-bottom ,
 .accor-testimonials .panel-default > .panel-heading,
 .happy-customers .owl-theme .owl-controls .owl-page.active span
 
 
 { background-color:#f08113;}
+
+.cp-child-topbar { background-color: #138293; }
 
 .gallery-caption h3, .about-testimonials h5,
 .about-development .content-box h3, .blog-hover a
