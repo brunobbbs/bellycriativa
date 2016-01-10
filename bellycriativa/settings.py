@@ -172,7 +172,7 @@ STATIC_URL = config('STATIC_URL', default="/static/")
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-static_root_default = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
+static_root_default = os.path.join(PROJECT_ROOT, 'public')
 STATIC_ROOT = config('STATIC_ROOT', default=static_root_default)
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
